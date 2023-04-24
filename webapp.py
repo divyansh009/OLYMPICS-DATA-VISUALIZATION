@@ -985,7 +985,7 @@ def create_stacked_bar_country_plot(noc, year, df):
 
 
 
-st.sidebar.title("Olympics Data Analysis")
+st.sidebar.title("Olympics Data Visualization")
 st.sidebar.image('https://i.pinimg.com/originals/27/07/eb/2707ebe3f9114547b13a6ad01daf5f51.png')
 
 user_menu = st.sidebar.radio(
@@ -994,7 +994,7 @@ user_menu = st.sidebar.radio(
 )
 
 if user_menu == 'Home':
-    st.title("Historic Olympic Data Analysis")
+    st.title("Olympics Data Visualization")
     st.image('https://akm-img-a-in.tosshub.com/indiatoday/images/story/202108/AP21219462944826_1200x768.jpeg?size=690:388')
     st.title("Medal Distribution Overall:")
     colors = ['#f4cb42', '#cd7f32', '#a1a8b5'] #gold,bronze,silver

@@ -17,7 +17,7 @@ from folium import plugins
 import geopandas as gpd
 import branca
 import matplotlib
-from textwrap import wrap
+#from textwrap import wrap
 from matplotlib.lines import Line2D
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 import scipy

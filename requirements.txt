@@ -1,0 +1,11 @@
+streamlit
+plotly
+seaborn
+matplotlib
+pandas
+numpy
+folium
+os
+geopandas
+branca
+textwrap
